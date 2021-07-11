@@ -39,9 +39,11 @@ Data repository for applying independent component analysis decomposition on <i>
   * <i>09_Tradeoff</i> : Notebooks to create scatter plot between the RpoS and Translational iModulon 
   * <i>10_DIMAPlot</i> : Differential iModulon activity (DIMA) plot between the M9glucAA+Paraquat and M9glucAA      
 
-* <b>Supplementary Files</b>
 * <b>Figures</b>
-* <b>paeru_104_imodulon_ica.json</b>
+  * <i>Complete Figures</i>: 05 Figures which are used in main manuscript
+  * <i>Supplementary Figures</i>: 06 Figures which are used as Supplemenatry figures
+
+* <b>paeru_104_imodulon_ica.json</b> : .json files with all the information of 104 iModulons
 * <b>README.md</b>
 
 
