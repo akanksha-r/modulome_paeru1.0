@@ -1,0 +1,76 @@
+iModulon_number,iModulon_name,regulator,pvalue,qvalue,recall,precision,f1score,TP,regulon_size,imodulon_size,Exp_variance,Function,Operon,colors,updated_size
+1,DhcR,DhcR,6.94E-10,1.16E-05,1,0.5,0.66666667,3,3,6,0.26,Amino acid transport and metabolism,atoDABE,#D9A06A,30
+3,EatR,EatR,1.25E-13,1.05E-09,1,0.8,0.88888889,4,4,5,0.19,Amino acid transport and metabolism,PA4022-eat-eutBC,#D9A06A,25
+6,ArgR-1,ArgR/Sigma factor X,1.60E-47,2.69E-43,0.91304348,0.58333333,0.71186441,21,23,36,0.31,Amino acid transport and metabolism,"aruBCDEFG,arcBD, atoJQMP",#D9A06A,180
+8,EutR,EutR,4.70E-16,7.88E-12,1,0.71428571,0.83333333,5,5,7,0.29,Amino acid transport and metabolism,PA5506-PA5510 (eutBAT),#D9A06A,35
+14,ErbR-1,LldR/ErbR,4.78E-14,8.01E-10,0.53333333,0.18181818,0.27118644,8,15,44,0.59,Amino acid transport and metabolism,pqqABCDEH,#D9A06A,220
+20,MmsR,PrpR/MmsR,3.37E-15,5.65E-11,0.75,0.4,0.52173913,6,8,15,0.6,Amino acid transport and metabolism,atoDABE,#D9A06A,75
+24,AmiE,AmiE,1.03E-14,1.73E-10,1,0.45454545,0.625,5,5,11,0.59,Amino acid transport and metabolism,PA2110-PA2114,#D9A06A,55
+37,HutC,HutC,3.01E-36,5.05E-32,1,0.76470588,0.86666667,13,13,17,0.79,Amino acid transport and metabolism,hutFCUHIG,#D9A06A,85
+38,AauR,AauR,8.72E-13,1.46E-08,1,0.57142857,0.72727273,4,4,7,0.3,Amino acid transport and metabolism,aatPMQJ,#D9A06A,35
+42,PrrF,PrrF,0.000004,0.000004,1,0.181818,0.307692,2,2,11,0.15,Amino acid transport and metabolism,leuBDC,#D9A06A,55
+44,ArgR-2,Anr,1.02E-07,0.00175539,0.11111111,1,0.2,3,27,3,0.24,Amino acid transport and metabolism,"arcDBAC, nirNEJHGLDFCMS, ccoP2Q2O2N2",#D9A06A,15
+45,CbrB,CbrB,1.31E-06,0.0056596,0.375,0.17647059,0.24,3,8,17,0.35,Amino acid transport and metabolism,spuABC,#D9A06A,85
+46,LiuR,PrpR/LiuR,1.90E-29,3.19E-25,0.92307692,0.5,0.64864865,12,13,24,0.6,Amino acid transport and metabolism,liuEDCBA,#D9A06A,120
+65,HypR,HypR/NorR,1.55E-26,2.60E-22,0.75,1,0.85714286,9,12,9,0.22,Amino acid transport and metabolism,lhpGCKONMHP,#D9A06A,45
+76,SouR,SouR/DguR,1.68E-18,1.41E-14,0.88888889,0.27586207,0.42105263,8,9,29,0.55,Amino acid transport and metabolism,soxBDAG,#D9A06A,145
+80,GcsR,GcsR,0,0,1,1,1,5,5,5,0.22,Amino acid transport and metabolism,gcv operon,#D9A06A,25
+84,PhhR,PhhR/HmgR,9.20E-29,1.54E-24,0.83333333,0.90909091,0.86956522,10,12,11,0.36,Amino acid transport and metabolism,"phhCBA, dhcBA",#D9A06A,55
+87,DguR,DguR,1.39E-10,2.33E-06,1,0.75,0.85714286,3,3,4,0.15,Amino acid transport and metabolism,dguCBA,#D9A06A,20
+74,NarL-2,Dnr/NarL,2.95E-10,4.95E-06,0.2,0.5,0.28571429,5,25,10,0.34,Amino acid transport and metabolism,narIJHGK2K1,#D9A06A,50
+77,Anr-2,NorR/Dnr/Anr,4.26E-36,7.15E-32,0.73913043,0.53125,0.61818182,17,23,32,0.92,Amino acid transport and metabolism,moaB1EDC,#D9A06A,160
+58,CpxR,CpxR/ParB,8.42E-12,1.41E-07,0.55555556,0.33333333,0.41666667,5,9,15,0.27,Amino acid transport and metabolism,muxABC-OpmB,#D9A06A,75
+32,PvdS,PvdS,1.01E-29,5.66E-26,0.92857143,0.39393939,0.55319149,13,14,33,1.77,Biosynthetic gene clusters,pvdRT-ompQ or pvdNOFEADJ,#63be79,165
+39,RiPP,Novel iModulon,,,,,,,,,0.24,Biosynthetic gene clusters,PA3281-PA3284,#63be79,0
+89,QscR-2,RhlR/QscR,1.13E-29,1.90E-25,0.625,0.45454545,0.52631579,15,24,33,2.81,Biosynthetic gene clusters,PA1891-PA1897,#63be79,165
+43,k-opioid,k-opioid,0,0,1,1,1,11,11,11,0.57,Biosynthetic gene clusters,PA1211-PA1221,#63be79,55
+52,PchR,PchR,5.04E-26,8.46E-22,1,0.69230769,0.81818182,9,9,13,0.93,Biosynthetic gene clusters,pchBCDA and pchEFGHI,#63be79,65
+10,Zur-1,Zur/RutR,2.44E-38,4.10E-34,0.72413793,0.38888889,0.5060241,21,29,54,1.3,Biosynthetic gene clusters,"znuCBA, others",#63be79,270
+15,LasR,LasR/MvfR,2.91E-22,4.89E-18,0.63157895,0.28571429,0.39344262,12,19,42,1.31,Biosynthetic gene clusters,aprDEFA and ambEDCB,#63be79,210
+50,Zur-2,NrdR/Cobalamin/Zur,3.15E-10,5.28E-06,0.19354839,0.33333333,0.24489796,6,31,18,0.12,Biosynthetic gene clusters,cntIMLO,#63be79,90
+60,ErbR-2,ErbR,1.12E-26,9.36E-23,0.90909091,0.625,0.74074074,10,11,16,0.32,Biosynthetic gene clusters,"ppqABCDEF, exaAB, and eraSR",#63be79,80
+4,AtuR,AtuR/LaoR,4.47E-26,7.50E-22,1,0.47619048,0.64516129,10,10,21,0.25,Carbon Metabolism,atuABCDEFG,#46B8DE,105
+5,HexR-1,HexR/GltR,4.35E-32,7.30E-28,0.92307692,0.70588235,0.8,12,13,17,0.89,Carbon Metabolism,gltKGFB,#46B8DE,85
+17,RpoN,RpoN,5.79E-94,9.71E-90,0.84,0.93333333,0.88421053,42,50,45,0.93,Carbon metabolism,glgBP-katE,#46B8DE,225
+19,FruR,LldR/FruR,9.90E-13,1.66E-08,0.625,0.41666667,0.5,5,8,12,0.2,Carbon Metabolism,fruAKI,#46B8DE,60
+23,HexR-2,HexR,3.53E-24,5.92E-20,0.88888889,0.88888889,0.88888889,8,9,9,0.36,Carbon Metabolism,"gltR,glk,edd,gapA",#46B8DE,45
+26,RsmA,RsmA,7.01E-18,5.88E-14,0.46666667,0.77777778,0.58333333,7,15,9,0.65,Carbon Metabolism,kguEKTD,#46B8DE,45
+31,NagQ,NagQ/GbuR,8.33E-15,1.40E-10,0.75,0.35294118,0.48,6,8,17,0.22,Carbon Metabolism,nagAFE-PA3759,#46B8DE,85
+36,GlpR,GlpR,2.91E-09,0.0000489,1,0.33333333,0.5,3,3,9,0.33,Carbon Metabolism,glpFKD,#46B8DE,45
+72,PtxS,GntR/PtxS,1.00E-20,1.68E-16,0.63636364,1,0.77777778,7,11,7,0.23,Carbon Metabolism,kguEKTD,#46B8DE,35
+102,AcoR,AcoR,0,0,1,1,1,6,6,6,0.2,Carbon Metabolism,acoXABC,#46B8DE,30
+9,PmrA,PmrA,2.35E-18,3.94E-14,1,0.35,0.51851852,7,7,20,0.46,Defense Mechanism,arnBCADTEF,#E190D6,100
+18,MexZ,MexZ,MexZ,6.44296E-07,6.44296E-07,1,0.4,0.571429,2,2,0.06,Defense Mechanism,mexXYZ,#E190D6,10
+25,EsrC,NfxB/EsrC,1.26E-08,0.0000353,1,0.21428571,0.35294118,3,3,14,0.38,Defense Mechanism,mexCD-OprJ,#E190D6,70
+64,SoxR,SoxR,4.73E-18,7.93E-14,0.85714286,0.75,0.8,6,7,8,0.27,Defense Mechanism,mexGHI-OmpD,#E190D6,40
+0,NarL-1,NarL/Dnr,5.22E-16,8.76E-12,0.28,0.77777778,0.41176471,7,25,9,0.33,Energy  Metabolism,narIJHGK2,#BDAC51,45
+90,RoxR,RoxR,4.62E-08,0.00038704,1,0.14285714,0.25,3,3,21,0.56,Energy  Metabolism,coxAB-coIII,#BDAC51,105
+47,CzcR,Fur/CzcR,1.96E-12,3.29E-08,0.7,0.11111111,0.19178082,7,10,63,0.71,Metal Homeostasis,czcABC,#00C19F,315
+70,PhnR-2,PhnF/PhnR,4.51E-07,0.00779766,0.2173913,0.125,0.15873016,5,23,40,0.2,Metal Homeostasis,phnJIHGFEDC or pstBACS,#00C19F,200
+82,CueR,CueR,1.23E-11,2.07E-07,1,0.33333333,0.5,4,4,12,0.21,Metal Homeostasis,PA3515-PA3522,#00C19F,60
+27,FpvR,FpvR,1.96E-24,5.49E-21,1,0.8,0.88888889,8,8,10,0.31,Metal Homeostasis,fpvGHJKCDEF,#00C19F,50
+21,Anr-1,NrdR/Anr,8.55E-27,1.43E-22,0.44117647,0.46875,0.45454545,15,34,32,0.78,Metal Homeostasis,moaB1EDC,#00C19F,160
+49,AtsR,AtsR,1.59E-06,0.00915508,1,0.04545455,0.08695652,3,3,66,0.76,Metal Homeostasis,atsABC,#00C19F,330
+67,CysB-1,YdfF/CysB,1.77E-14,2.97E-10,0.53846154,0.29166667,0.37837838,7,13,24,0.67,Metal Homeostasis,ssuABCDEF and tauABCD,#00C19F,120
+91,CysB-2,CysB/YdfF,1.14E-09,1.91E-05,0.46153846,0.10909091,0.17647059,6,13,55,1.42,Metal Homeostasis,atsABC,#00C19F,275
+85,MvfR,MvfR,1.00E-20,1.68E-16,0.63636364,1,0.77777778,7,11,7,0.41,Miscellaneus metabolism,pqsABCDE or PhnAB,#8FAAEB,35
+95,MdcR,MdcR,2.43E-22,4.07E-18,1,0.875,0.93333333,7,7,8,0.34,Miscellaneus metabolism,mdcABCDEGH,#8FAAEB,40
+7,AntR,AntR,6.75E-19,1.13E-14,1,0.75,0.85714286,6,6,8,0.35,Miscellaneus metabolism,antABC and catBCA,#8FAAEB,40
+48,BexR,BexR,5.49E-21,9.21E-17,1,0.4,0.57142857,8,8,20,0.27,Miscellaneus metabolism,PA1202 and aprA operon,#8FAAEB,100
+97,AmiR,GlcC/AmiR,4.36E-19,3.77E-15,0.7,0.7,0.7,7,10,10,0.44,Miscellaneus metabolism,amiEBCRS,#8FAAEB,50
+35,XisF4,XisF4,0,0,1,1,1,11,11,11,0.41,Prophages,PA0718-PA0728,#ED8EB7,55
+83,Sigma-70,Sigma-70,1.37E-66,2.29E-62,1,0.58823529,0.74074074,30,30,51,1.42,Prophages,PA0614-PA0645,#ED8EB7,255
+11,AHL,AHL,1.25E-13,2.09E-09,1,0.8,0.88888889,4,4,5,0.31,Quorum sensing,PA1891-PA1897,#97B658,25
+81,QscR-1,QscR,3.53E-18,5.92E-14,0.33333333,1,0.5,7,21,7,0.43,Quorum sensing,PA1891-PA1897,#97B658,35
+12,TagR1,TagR1/Sfa2,0,0,0.20740741,0.73684211,0.32369942,28,38,135,1.26,Secretion system,pppA-ppkA,#00C0C3,675
+40,ExsB,ExsB,6.85E-30,1.22E-25,0.34210526,1,0.50980392,13,13,38,1.04,Secretion system,pscBCDEFGHIJKL,#00C0C3,190
+54,Sfa2,Sfa2,5.14E-36,9.16E-32,0.53571429,0.9375,0.68181818,15,16,28,0.66,Secretion system,hsiF2G2B2C2H2J2,#00C0C3,140
+30,RpoS-1,AlgU/RpoN,5.66E-24,9.49E-20,0.46296296,0.14044944,0.21551724,25,54,178,1.5,Stress response,PA2161-PA2171,#C29BE9,890
+92,RpoS-2,RpoS/MmsR,9.62E-15,1.61E-10,0.57894737,0.09734513,0.16666667,11,19,113,3.47,Stress response,coxAB-coIII,#C29BE9,565
+55,RpoH,,0,0,1,0.208333,0.344828,5,5,24,0.73,Stress response,,#C29BE9,120
+78,MexS,GlcC/MexS,4.50E-15,3.78E-11,0.875,0.175,0.29166667,7,8,40,0.67,Stress response,multiple operon,#C29BE9,200
+96,LexA,LexA/GbuR,1.66E-23,2.78E-19,0.55555556,0.66666667,0.60606061,10,18,15,0.32,Stress response,multiple operon,#C29BE9,75
+28,PA1226,PA1226,0.002494,0.002494,0.103448,0.056604,0.073171,3,29,53,0.57,Structural components,wbpABDEGHIJKL wzz,#E99491,265
+73,AmrZ,AmrZ/AlgR,1.80E-19,3.02E-15,0.64705882,0.21153846,0.31884058,11,17,52,0.49,Structural components,pslDEFGHJK,#E99491,260
+51,FleN,FleN,3.73E-23,3.13E-19,0.6875,0.37931034,0.48888889,11,16,29,0.42,Structural components,flgBCDEFL,#E99491,145
+93,PprB,PprB,3.47E-13,5.82E-09,1,0.25,0.4,5,5,20,0.86,Structural components,tadDCBAZ,#E99491,100
