@@ -6,7 +6,7 @@ Data repository for applying independent component analysis decomposition on <i>
 
 ## Repository Structure
 
-* Data: Files created throughout the ICA decomposition and analysis process
+* <b>Data</b>: Files created throughout the ICA decomposition and analysis process
   * External
      * Contains files extracted from external repositories e.g. KEGG and GO enrichments
 
