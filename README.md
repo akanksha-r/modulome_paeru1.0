@@ -41,8 +41,8 @@ Data repository for applying independent component analysis decomposition on <i>
 
 * <b>Supplementary Files</b>
 * <b>Figures</b>
-* paeru_104_imodulon_ica.json
-* README.md
+* <b>paeru_104_imodulon_ica.json</b>
+* <b>README.md</b>
 
 
 
