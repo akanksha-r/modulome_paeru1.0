@@ -2,7 +2,6 @@
 
 Data repository for applying independent component analysis decomposition on <i>P. aeruginosa</i> transcriptomic data as described in <i>biorxiv</i> 
 
-## Installation
 
 ## Repository Structure
 
