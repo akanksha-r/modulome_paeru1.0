@@ -27,6 +27,22 @@ Data repository for applying independent component analysis decomposition on <i>
       * Includes sequence files for <i> P. aeruginosa</i> PAO1
 
 
-* Notebooks
-      
+* <b>Notebooks</b>
+  * 01_expression_QC_SOP
+  * 02_expression_visualization
+  * 03_ica_dimensionality
+  * 04_ica_data_compile
+  * 05_ica_summary
+  * 06_simulation_CF
+  * 07_Carbon_AA_metabolism
+  * 08_Clustermap
+  * 09_Tradeoff
+  * 10_DIMAPlot      
+
+* <b>Supplementary Files</b>
+* <b>Figures</b>
+* paeru_104_imodulon_ica.json
+* README.md
+
+
 
