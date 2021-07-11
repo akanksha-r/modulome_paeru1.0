@@ -6,4 +6,6 @@ Data repository for applying independent component analysis decomposition on <i>
 
 ## Repository Structure
 
-<li> <b>Data</b></li>
+<li> <b>Data</b></li>: Files created throughout the ICA decomposition and analysis process
+<li><li> External</li></li>
+
