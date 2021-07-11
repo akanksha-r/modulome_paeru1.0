@@ -6,4 +6,4 @@ Data repository for applying independent component analysis decomposition on <i>
 
 ## Repository Structure
 
-<ul> Data</ul>
+<li> Data</li>
