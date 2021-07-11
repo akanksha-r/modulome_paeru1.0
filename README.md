@@ -11,6 +11,22 @@ Data repository for applying independent component analysis decomposition on <i>
      * Contains files extracted from external repositories e.g. KEGG and GO enrichments
 
 
- * iModulondb
-   * Includes files to build iModulondb website
+  * iModulondb
+    * Includes files to build iModulondb website
+
+  * Interim
+      * Contains data processed by pipeline and which is also required for further analysis
+
+  * Processed Data
+      * Includes the final data used for ICA analysis such as X, M, and A matrices as well as metadata and the Transcriptional Regulatory Netwrok (TRN) files
+
+  * Raw Data
+      * Contains the transcripts count and multiqc files of the data form SRA 
+  
+  * Sequence Files
+      * Includes sequence files for <i> P. aeruginosa</i> PAO1
+
+
+* Notebooks
+      
 
