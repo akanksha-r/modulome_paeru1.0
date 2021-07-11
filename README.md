@@ -10,3 +10,7 @@ Data repository for applying independent component analysis decomposition on <i>
   * External
      * Contains files extracted from external repositories e.g. KEGG and GO enrichments
 
+
+ * iModulondb
+   * Includes files to build iModulondb website
+
