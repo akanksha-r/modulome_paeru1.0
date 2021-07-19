@@ -1,23 +1,49 @@
-# modulome-workflow
+# Machine Learning of all public <i>Pseudomonas aeruginosa</i> transcriptomes identifies independently modulated sets of genes associated with known transcriptional regulators
 
-This repository presents a computational workflow to compute and characterize all iModulons for a selected organism. This occurs in five steps:
-1. Gather all publicly available RNA-seq data for the organism ([Step 1](1_download_metadata))
-2. Process the RNA-seq data ([Step 2](2_process_data))
-3. Inspect data to identify high-quality datasets ([Step 3](3_quality_control))
-4. Compute iModulons ([Step 4](4_optICA))
-5. Characterize iModulons using [PyModulon](https://github.com/SBRG/pymodulon) ([Step 5](5_characterization))
+Data repository for applying independent component analysis decomposition on <i>P. aeruginosa</i> transcriptomic data as described in <i>biorxiv</i> 
 
-## Background
-**iModulons** are **i**ndependently-**modul**ated group of genes that are computed through Independent Component Analysis (ICA) of a gene expression dataset. To learn more about iModulons or explore published iModulons, visit [iModulonDB](https://imodulondb.org) or see our publications for [*Escherichia coli*](https://www.nature.com/articles/s41467-019-13483-w), [*Staphylococcus aureus*](https://www.pnas.org/content/117/29/17228), or [*Bacillus subtilis*](https://www.nature.com/articles/s41467-020-20153-9).
 
-Here, we introduce the concept of the **Modulome** for an organism, which is the set of all iModulons that can be computed for the organism based on publicly available RNA-seq data. The computational pipeline provides a step-by-step workflow to compute the Modulome for *Bacillus subtilis*.
+## Repository Structure
 
-## Setup
+* <b>Data</b>: Files created throughout the ICA decomposition and analysis process
+  * External
+     * Contains files extracted from external repositories e.g. KEGG and GO enrichments
 
-Pre-requisite software is listed within each step of the workflow. In addition, we have provided pre-built Docker containers with all necessary software.
 
-To begin, install [Docker](https://docs.docker.com/get-docker/) and [Nextflow](https://www.nextflow.io/).
+  * iModulondb
+    * Includes files to build iModulondb website
 
-## Cite
+  * Interim
+      * Contains data processed by pipeline and which is also required for further analysis
 
-A pre-print is being prepared for this tutorial workflow.
+  * Processed Data
+      * Includes the final data used for ICA analysis such as X, M, and A matrices as well as metadata and the Transcriptional Regulatory Netwrok (TRN) files
+
+  * Raw Data
+      * Contains the transcripts count and multiqc files of the data form SRA 
+  
+  * Sequence Files
+      * Includes sequence files for <i> P. aeruginosa</i> PAO1
+
+
+* <b>Notebooks</b>
+  * <i>01_expression_QC_SOP</i> : Notebook to take raw reads and multiqc stats files. filtering thes samples, and produce log_tpm file
+  * <i>02_expression_visualization</i> : Visualization of logTPM files by cluster map and PCA plots, and normalize the data (log_TPM_norm) 
+  * <i>03_ica_dimensionality</i> : After running the ICA decomposition using nextflow, this notebook used to check the dimensionality to determine optimal M and A matrices
+  * <i>04_ica_data_compile</i> : Compile various files and save it as single .json file
+  * <i>05_ica_summary</i> : Summarize various iModulons in form of scatter plot on the basis of their functions
+  * <i>06_simulation_CF</i> : Creates the heatmap, scatter plot, and barplots for the iModulons might have some role in Cystic Fibrosis 
+  * <i>07_Carbon_AA_metabolism</i> : Notebook to various plots for Carbon and Amino Acid metabolism
+  * <i>08_Clustermap</i> : Clustering all the iModulons based on similar functionality on the basis of Pearson correlation coefficient (PCC)
+  * <i>09_Tradeoff</i> : Notebooks to create scatter plot between the RpoS and Translational iModulon 
+  * <i>10_DIMAPlot</i> : Differential iModulon activity (DIMA) plot between the M9glucAA+Paraquat and M9glucAA      
+
+* <b>Figures</b>
+  * <i>Complete Figures</i>: 05 Figures which are used in main manuscript
+  * <i>Supplementary Figures</i>: 06 Figures which are used as Supplemenatry figures
+
+* <b>paeru_104_imodulon_ica.json</b> : .json files with all the information of 104 iModulons
+* <b>README.md</b>
+
+
+
